@@ -3,7 +3,8 @@
   "scripts": {
     "start": "hardhat node",
     "test:1": "hardhat test \"contracts/1. CoinFlip/CoinFlip.test.ts\"",
-    "test:2": "hardhat test \"contracts/2. Delegation/Delegation.test.ts\""
+    "test:2": "hardhat test \"contracts/2. Delegation/Delegation.test.ts\"",
+    "test:3": "hardhat test \"contracts/3. Force/Force.test.ts\""
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
