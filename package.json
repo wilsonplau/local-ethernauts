@@ -6,7 +6,8 @@
     "test:2": "hardhat test \"contracts/2. Delegation/Delegation.test.ts\"",
     "test:3": "hardhat test \"contracts/3. Force/Force.test.ts\"",
     "test:4": "hardhat test \"contracts/4. Vault/Vault.test.ts\"",
-    "test:5": "hardhat test \"contracts/5. King/King.test.ts\""
+    "test:5": "hardhat test \"contracts/5. King/King.test.ts\"",
+    "test:6": "hardhat test \"contracts/6. Reentrance/Reentrance.test.ts\""
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
