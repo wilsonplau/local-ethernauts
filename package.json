@@ -1,5 +1,9 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "start": "hardhat node",
+    "test:1": "hardhat test \"contracts/1. CoinFlip/CoinFlip.test.ts\""
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
